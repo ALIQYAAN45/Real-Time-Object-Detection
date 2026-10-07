@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Local SQLite / temporary databases (if any)
+*.db
+*.sqlite3
+
+# Environment variables & secrets (NEVER commit database credentials)
+.env
+
+# Model weights & Ultralytics runs
+models/*.pt
+yolov8n.pt
+runs/
+
+# IDE and Editor configuration
+.vscode/
+.idea/
+*.swp
+
+# Operating System files
+Thumbs.db
+.DS_Store
